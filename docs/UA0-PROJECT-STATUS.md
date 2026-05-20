@@ -14,7 +14,7 @@ It records where the project is in the UA Framework process so any agent invocat
 
 - **Project name:** Surge
 - **Path:** self-idea
-- **Started:** 2026-05-19
+- **Started:** 2026-05-06
 
 ## Current stage
 
@@ -22,33 +22,39 @@ Stage 1 — Discovery
 
 ## Current pass or activity
 
-Pass 1 — First draft
+Pass 4 — Interviews and revision
 
 ## Positioning statement status
 
 One line per clause. Status values: `not started` | `drafted from belief` | `drafted-unconfirmed` | `refined by research` | `evidenced by interview` | `stable`.
 
-- Target customer: not started
-- Need or opportunity: not started
-- Product name: not started
-- Product category: not started
-- Key benefit: not started
-- Primary competitive alternative: not started
-- Primary differentiation: not started
+- Target customer: evidenced by interview
+- Need or opportunity: evidenced by interview
+- Product name: refined by research
+- Product category: refined by research
+- Key benefit: evidenced by interview
+- Primary competitive alternative: evidenced by interview
+- Primary differentiation: evidenced by interview
 
 ## Completed checkpoints
 
-A running list. Each entry is a single line: what was completed, and the date.
-
-- 2026-05-19 Pass 0 — Origin interview (self as origin person; martial arts and soccer performance gaps, MyFitnessPal paywall friction)
+- 2026-05-07: Pass 0 — Origin interview (student's personal experience + friend as origin person)
+- 2026-05-07: Pass 1 — First draft (all seven clauses drafted from belief, evidence records populated)
+- 2026-05-07: Pass 2 — Research-driven refinement (name changed to Surge, differentiation sharpened to $1 one-time purchase + athlete-specific, free alternatives confirmed to exist)
+- 2026-05-07: Pass 3 — Interview planning (Jayden and Sam identified, question guide built, falsification commitments written for both interviews)
+- 2026-05-14: Pass 4 — Interview 1 complete (Jayden, basketball). Need confirmed and expanded. Target customer broadened to performance-oriented athletes. Positioning statement updated with new evidence. Competitive research patterns added.
+- 2026-05-14: Pass 4 — Interview 2 complete (Jessica, gym-goer). Target customer confirmed to include gym-goers. Need clause complicated: two distinct need modes now documented — knowledge gap (Jayden) vs. monitoring friction (Jessica). Key benefit complicated: "confidence" framing falls flat for already-knowledgeable sub-segment. Positioning statement updated with new evidence across Target customer, Need or opportunity, and Key benefit.
 
 ## Known gaps
 
-Things the student and agent have flagged as not yet addressed. Carried forward across sessions until resolved or explicitly dropped.
-
-- (none yet)
+- Two sub-segments now documented (knowledge-seekers vs. monitoring-reducers) but product has not chosen which to optimize for — this is the most pressing open question
+- Key benefit "confidence" framing confirmed for less-informed users; needs alternative framing for knowledgeable users who already have confidence
+- Differentiation angle needs stronger evidence that athletes prefer performance-focused guidance over simpler calorie tracking
+- Need interviews with endurance athletes and strength/lifting athletes to round out evidence beyond basketball and gym-going
+- Why users abandon nutrition apps still underdocumented — tracking fatigue, shame, inconvenience, or something else?
+- "Moment of pain" still needs sharper definition: before a game, after a low-energy workout, at the end of a day when coverage feels incomplete?
 
 ## Last updated
 
-- **Date:** 2026-05-19
-- **By:** positioning-statement
+- **Date:** 2026-05-20
+- **By:** ua-framework (migration to user-research repo)
