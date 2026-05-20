@@ -12,7 +12,7 @@ The statement at the top is the public-facing artifact — short, clean, one par
 
 ## Statement
 
-> For *(target customer)*
+> For *performance-focused athletes and regular gym-goers who are working toward a specific fitness goal but don't know if their diet is actually supporting it*
 > who *(statement of the need or opportunity)*,
 > the *(product name)* is a *(product category)*
 > that *(statement of key benefit)*.
@@ -25,7 +25,7 @@ The statement at the top is the public-facing artifact — short, clean, one par
 
 Per-clause status. Mirrors the per-clause status in `UA0-PROJECT-STATUS.md`.
 
-- **Target customer:** not started
+- **Target customer:** drafted from belief
 - **Need or opportunity:** not started
 - **Product name:** not started
 - **Product category:** not started
@@ -43,7 +43,7 @@ One subsection per clause. Updated continuously across all five passes.
 
 ### Target customer
 
-- **Current belief:** [not yet drafted — to be written in Pass 1]
+- **Current belief:** Performance-focused athletes and regular gym-goers who are working toward a specific fitness goal but don't know if their diet is actually supporting it.
 - **Basis for the belief:** Origin interview (self). Student played martial arts and soccer while underweight; being skinny limited muscle strength for landings, led to feeling cold during night games, and meant getting physically outmuscled on the field. The target customer is an athlete or fitness enthusiast who struggles with nutrition-driven performance gaps.
 - **Evidence found:**
   - 2026-05-19, origin interview: student described being pushed around during soccer games and not having enough muscle strength to land martial arts moves correctly — both attributed to low body weight and poor diet.
