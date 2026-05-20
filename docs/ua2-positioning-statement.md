@@ -43,59 +43,61 @@ One subsection per clause. Updated continuously across all five passes.
 
 ### Target customer
 
-- **Current belief:** [the clause as written in the statement above, restated]
-- **Basis for the belief:** [why the student thinks this — client said so, observation, intuition, prior conversation]
+- **Current belief:** [not yet drafted — to be written in Pass 1]
+- **Basis for the belief:** Origin interview (self). Student played martial arts and soccer while underweight; being skinny limited muscle strength for landings, led to feeling cold during night games, and meant getting physically outmuscled on the field. The target customer is an athlete or fitness enthusiast who struggles with nutrition-driven performance gaps.
 - **Evidence found:**
-  - [date, source, what was found, citation]
-- **Alternatives considered:** [other versions that were considered, with one-line reasons for dropping each]
-- **What would change my mind:** [what evidence would force a revision of this clause]
+  - 2026-05-19, origin interview: student described being pushed around during soccer games and not having enough muscle strength to land martial arts moves correctly — both attributed to low body weight and poor diet.
+- **Alternatives considered:** [none yet]
+- **What would change my mind:** [to be written in Pass 1]
 
 ### Need or opportunity
 
-- **Current belief:**
-- **Basis for the belief:**
+- **Current belief:** [not yet drafted — to be written in Pass 1]
+- **Basis for the belief:** Origin interview (self). Student tried eating more protein but had no way to connect food choices to nutritional outcomes. Wanted to know which food groups to prioritize and which foods were more or less appropriate for their athletic goals.
 - **Evidence found:**
-- **Alternatives considered:**
-- **What would change my mind:**
+  - 2026-05-19, origin interview: "understanding the nutritional values and the information would help me know which food groups I should be eating more and whether certain foods are more healthy or less healthy to eat."
+- **Alternatives considered:** [none yet]
+- **What would change my mind:** [to be written in Pass 1]
 
 ### Product name
 
-- **Current belief:**
-- **Basis for the belief:**
-- **Evidence found:**
-- **Alternatives considered:**
-- **What would change my mind:**
+- **Current belief:** [not yet drafted — to be written in Pass 1]
+- **Basis for the belief:** Student chose the name "Surge." No further rationale documented yet.
+- **Evidence found:** [none yet]
+- **Alternatives considered:** [none yet]
+- **What would change my mind:** [to be written in Pass 1]
 
 > Mostly internal; thin evidence here is acceptable.
 
 ### Product category
 
-- **Current belief:**
-- **Basis for the belief:**
-- **Evidence found:**
-- **Alternatives considered:**
-- **What would change my mind:**
+- **Current belief:** [not yet drafted — to be written in Pass 1]
+- **Basis for the belief:** [to be written in Pass 1]
+- **Evidence found:** [none yet]
+- **Alternatives considered:** [none yet]
+- **What would change my mind:** [to be written in Pass 1]
 
 ### Key benefit
 
-- **Current belief:**
-- **Basis for the belief:**
-- **Evidence found:**
-- **Alternatives considered:**
-- **What would change my mind:**
+- **Current belief:** [not yet drafted — to be written in Pass 1]
+- **Basis for the belief:** [to be written in Pass 1]
+- **Evidence found:** [none yet]
+- **Alternatives considered:** [none yet]
+- **What would change my mind:** [to be written in Pass 1]
 
 ### Primary competitive alternative
 
-- **Current belief:**
-- **Basis for the belief:**
+- **Current belief:** [not yet drafted — to be written in Pass 1]
+- **Basis for the belief:** Origin interview (self). Student tried MyFitnessPal. Wanted to use the camera AI food scan feature; hit a free-use limit and was asked to pay a monthly subscription to continue. Stopped using it.
 - **Evidence found:**
-- **Alternatives considered:**
-- **What would change my mind:**
+  - 2026-05-19, origin interview: "after some free uses, it stopped me and wanted me to pay the monthly subscription to continue using those features." Feature in question: camera AI food scan.
+- **Alternatives considered:** [none yet]
+- **What would change my mind:** [to be written in Pass 1]
 
 ### Primary differentiation
 
-- **Current belief:**
-- **Basis for the belief:**
-- **Evidence found:**
-- **Alternatives considered:**
-- **What would change my mind:**
+- **Current belief:** [not yet drafted — to be written in Pass 1]
+- **Basis for the belief:** [to be written in Pass 1]
+- **Evidence found:** [none yet]
+- **Alternatives considered:** [none yet]
+- **What would change my mind:** [to be written in Pass 1]

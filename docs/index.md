@@ -14,15 +14,15 @@ moves from opportunity discovery through specification.
 ## Project status
 
 - **Current stage:** Stage 1 — Discovery
-- **Current pass / activity:** Pass 0 — Origin interview
+- **Current pass / activity:** Pass 1 — First draft
 - **Last status update:** 2026-05-19
-- **Most recent checkpoint:** —
+- **Most recent checkpoint:** Pass 0 — Origin interview complete (2026-05-19)
 
 ## Documents
 
 ### Stage 1 — Discovery
 
-- [ua2 — Positioning statement](ua2-positioning-statement.md) — drafted, not yet filled in (template placeholders only; Pass 0 origin interview in progress)
+- [ua2 — Positioning statement](ua2-positioning-statement.md) — evidence record seeded from Pass 0 origin interview (target customer, need/opportunity, and primary competitive alternative sections have initial entries); seven clauses not yet drafted
 
 ### Project status file
 

@@ -22,7 +22,7 @@ Stage 1 — Discovery
 
 ## Current pass or activity
 
-Pass 0 — Origin interview
+Pass 1 — First draft
 
 ## Positioning statement status
 
@@ -40,7 +40,7 @@ One line per clause. Status values: `not started` | `drafted from belief` | `dra
 
 A running list. Each entry is a single line: what was completed, and the date.
 
-- (none yet)
+- 2026-05-19 Pass 0 — Origin interview (self as origin person; martial arts and soccer performance gaps, MyFitnessPal paywall friction)
 
 ## Known gaps
 
@@ -51,4 +51,4 @@ Things the student and agent have flagged as not yet addressed. Carried forward 
 ## Last updated
 
 - **Date:** 2026-05-19
-- **By:** ua-orchestrator
+- **By:** positioning-statement
