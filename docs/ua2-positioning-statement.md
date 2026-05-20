@@ -13,8 +13,8 @@ The statement at the top is the public-facing artifact — short, clean, one par
 ## Statement
 
 > For *performance-focused athletes and regular gym-goers who are working toward a specific fitness goal but don't know if their diet is actually supporting it*
-> who *(statement of the need or opportunity)*,
-> the *(product name)* is a *(product category)*
+> who *are training toward a specific athletic or fitness goal but don't have clear, personalized nutrition guidance to support it*,
+> the *Surge* is a *(product category)*
 > that *(statement of key benefit)*.
 > Unlike *(primary competitive alternative)*,
 > our product *(statement of primary differentiation)*.
@@ -26,8 +26,8 @@ The statement at the top is the public-facing artifact — short, clean, one par
 Per-clause status. Mirrors the per-clause status in `UA0-PROJECT-STATUS.md`.
 
 - **Target customer:** drafted from belief
-- **Need or opportunity:** not started
-- **Product name:** not started
+- **Need or opportunity:** drafted from belief
+- **Product name:** drafted from belief
 - **Product category:** not started
 - **Key benefit:** not started
 - **Primary competitive alternative:** not started
@@ -52,17 +52,17 @@ One subsection per clause. Updated continuously across all five passes.
 
 ### Need or opportunity
 
-- **Current belief:** [not yet drafted — to be written in Pass 1]
-- **Basis for the belief:** Origin interview (self). Student tried eating more protein but had no way to connect food choices to nutritional outcomes. Wanted to know which food groups to prioritize and which foods were more or less appropriate for their athletic goals.
+- **Current belief:** Athletes and gym-goers are training toward a specific athletic or fitness goal but don't have clear, personalized nutrition guidance to support it.
+- **Basis for the belief:** Origin interview (self). Student tried eating more protein but had no way to connect food choices to nutritional outcomes. Wanted to know which food groups to prioritize and which foods were appropriate for their athletic goals.
 - **Evidence found:**
   - 2026-05-19, origin interview: "understanding the nutritional values and the information would help me know which food groups I should be eating more and whether certain foods are more healthy or less healthy to eat."
-- **Alternatives considered:** [none yet]
+- **Alternatives considered:** "need a meal plan" — dropped because that's a feature, not the underlying problem.
 - **What would change my mind:** [to be written in Pass 1]
 
 ### Product name
 
-- **Current belief:** [not yet drafted — to be written in Pass 1]
-- **Basis for the belief:** Student chose the name "Surge." No further rationale documented yet.
+- **Current belief:** Surge.
+- **Basis for the belief:** Student chose the name. Rationale: catchy, and evokes the feeling of eagerness and forward momentum toward a goal — fits the athletic context.
 - **Evidence found:** [none yet]
 - **Alternatives considered:** [none yet]
 - **What would change my mind:** [to be written in Pass 1]
