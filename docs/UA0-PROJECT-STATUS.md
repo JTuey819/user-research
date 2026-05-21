@@ -47,8 +47,8 @@ One line per clause. Status values: `not started` | `drafted from belief` | `dra
 
 ## Known gaps
 
-- Two sub-segments now documented (knowledge-seekers vs. monitoring-reducers) but product has not chosen which to optimize for — this is the most pressing open question
-- Key benefit "confidence" framing confirmed for less-informed users; needs alternative framing for knowledgeable users who already have confidence
+- ~~Two sub-segments now documented (knowledge-seekers vs. monitoring-reducers) but product has not chosen which to optimize for~~ — RESOLVED 2026-05-21: primary user is the knowledge-seeker (Jayden profile — trains hard but doesn't yet know how to eat for their goal). Target customer clause updated accordingly.
+- Key benefit "confidence" framing confirmed for less-informed users (Jayden profile); monitoring-reducer framing (Jessica) deprioritized
 - Differentiation angle needs stronger evidence that athletes prefer performance-focused guidance over simpler calorie tracking
 - Need interviews with endurance athletes and strength/lifting athletes to round out evidence beyond basketball and gym-going
 - Why users abandon nutrition apps still underdocumented — tracking fatigue, shame, inconvenience, or something else?
@@ -56,5 +56,5 @@ One line per clause. Status values: `not started` | `drafted from belief` | `dra
 
 ## Last updated
 
-- **Date:** 2026-05-20
-- **By:** ua-framework (migration to user-research repo)
+- **Date:** 2026-05-21
+- **By:** positioning-statement

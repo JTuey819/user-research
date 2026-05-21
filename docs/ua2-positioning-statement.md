@@ -12,7 +12,7 @@ The statement at the top is the public-facing artifact — short, clean, one par
 
 ## Statement
 
-> For athletes and fitness-focused people trying to improve performance through better nutrition, Surge is a sports nutrition tracking app that helps users understand how their daily food choices affect performance and recovery. Unlike MyFitnessPal and other general calorie-tracking apps, our product focuses on translating sports nutrition into practical guidance tied to a user's training and activity.
+> For athletes and gym-goers who are training hard toward a specific goal but don't yet know how to eat in a way that actually supports it, Surge is a sports nutrition tracking app that helps users understand how their daily food choices affect performance and recovery. Unlike MyFitnessPal and other general calorie-tracking apps, our product focuses on translating sports nutrition into practical guidance tied to a user's training and activity.
 
 ---
 
@@ -38,7 +38,7 @@ One subsection per clause. Updated continuously across all five passes.
 
 ### Target customer
 
-- **Current belief:** Athletes and fitness-focused people who actively connect nutrition to performance, recovery, or training outcomes.
+- **Current belief:** Athletes and gym-goers who are training hard toward a specific goal but don't yet know how to eat in a way that actually supports it.
 - **Basis for the belief:** Origin conversation — friend had a goal to gain weight for football season; student has personal experience with a doctor recommending eating more. Both are people with a nutrition goal but no specific plan.
 - **Evidence found:**
   - 2026-05-07: Origin conversation with student — friend (competitive athlete) had a deadline to gain weight for football season; student was told by doctor to eat more with no specific guidance
