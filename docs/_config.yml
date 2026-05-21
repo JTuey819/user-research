@@ -3,7 +3,9 @@ description: >-
   Structured user research with the ua-framework — the published record of
   a project moving from opportunity discovery through specification.
 
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
 
 # Files at the top level of docs/ are the UA documents. List them with
 # their generated paths so links from index.md work.
