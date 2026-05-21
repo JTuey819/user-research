@@ -28,7 +28,9 @@ A short survey of the space the system enters. Two or three pages of notes is us
 
 ### Open-source candidates
 
-- No open-source sports nutrition tracking projects identified in current research. This is a gap — worth checking before Stage 3 to avoid rebuilding something that already exists (food databases, nutrition APIs, barcode lookup libraries).
+- **USDA FoodData Central** — free, government-maintained nutrition database with verified nutritional data for hundreds of thousands of foods. Could serve as Surge's primary nutritional data source. No license cost. Decision: use this (or a comparable API like Nutritionix or Edamam) for nutritional data rather than building a database from scratch.
+- **Open Food Facts** — open-source, community-maintained food database with barcode data and packaged food nutritional info. Complements USDA data for branded/packaged foods.
+- **Decision recorded (2026-05-21):** Surge will not build its own nutrition database from scratch. It will plug into an existing verified database for nutritional data. The AI camera recognition layer (identifying what food is in a photo) will be built on top of that data layer — these are two separate problems. This keeps the core data accurate and lets development focus on the athletic performance layer.
 
 ### Category
 
@@ -42,6 +44,8 @@ Conventions the project is taking on whether it knows it or not. For each, decid
 
 - Daily food logging — **keep** (the core behavior the category is built on)
 - Barcode / camera scanning to identify food — **keep** (the feature that hit the paywall in Jayden/student's experience; Surge's intended differentiator on access)
+- Large verified food database — **keep via existing API** (USDA FoodData Central or equivalent; not built from scratch — see Open-source candidates above)
+- AI camera food recognition — **keep, build on top of data layer** (separate problem from nutritional data; Surge builds the vision layer, existing database provides the numbers)
 - Calorie targets as the primary metric — **break on purpose** (Surge's positioning is performance, not calorie deficit; macro and nutrient guidance should lead, not calories)
 - Weight loss as the implied goal — **break on purpose** (Surge explicitly serves athletes trying to fuel performance and gain, not cut)
 - Macro breakdown (protein / carbs / fat) — **keep** (athletes expect this; removing it would confuse users)
