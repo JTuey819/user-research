@@ -1,6 +1,6 @@
 ---
 title: User Research Project
-layout: home
+layout: default
 last_updated: 2026-05-21
 ---
 
