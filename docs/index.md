@@ -13,22 +13,26 @@ moves from opportunity discovery through specification.
 
 ## Project status
 
-- **Current stage:** Stage 1 — Discovery
-- **Current pass / activity:** Pass 4 — Interviews and revision
+- **Current stage:** Stage 2 — Analysis
+- **Current pass / activity:** Section 1 — Landscape
 - **Last status update:** 2026-05-21
-- **Most recent checkpoint:** Pass 4 — Interview 2 complete (Jessica, gym-goer); sub-segment decision made — primary user is the knowledge-seeker (Jayden profile) (2026-05-21)
+- **Most recent checkpoint:** Stage 1 — Discovery complete; advancing to Stage 2 (2026-05-21)
 
 ## Documents
 
 ### Stage 1 — Discovery
 
-- [ua2 — Positioning statement](ua2-positioning-statement.md) — Moore paragraph revised; target customer sharpened to knowledge-seeking athletes who don't yet know how to eat for their goal (Jayden profile); all seven clauses evidenced by interview or refined by research
-- [ua3 — Research plan](ua3-research-plan.md) — desk research log across all clauses; competitor pricing and paywall patterns documented; name conflict (NutriScan → Surge) resolved; supplemental public-review findings added post-interview
-- [ua4 — Interview plan](ua4-interview-plan.md) — two interviews complete (Jayden, basketball; Jessica, gym-goer); falsification commitments written and reviewed for both; next-move priorities listed
+- [ua2 — Positioning statement](ua2-positioning-statement.md) — Moore paragraph complete; target customer sharpened to knowledge-seeking athletes (Jayden profile); all seven clauses evidenced by interview or refined by research; Stage 1 exit criteria met
+- [ua3 — Research plan](ua3-research-plan.md) — desk research log across all clauses; competitor pricing and paywall patterns documented; name conflict (NutriScan → Surge) resolved
+- [ua4 — Interview plan](ua4-interview-plan.md) — two interviews complete (Jayden, basketball; Jessica, gym-goer); falsification commitments written and reviewed for both
+
+### Stage 2 — Analysis
+
+- [ua5 — Stage 2 analysis](ua5-stage-2-analysis.md) — created; Section 1 (Landscape) in progress
 
 ### Project status file
 
-- [UA0 — Project status](UA0-PROJECT-STATUS.md) — agent-maintained record; Surge (self-idea path), Stage 1 Pass 4; primary sub-segment decision resolved, five remaining known gaps
+- [UA0 — Project status](UA0-PROJECT-STATUS.md) — agent-maintained record; Surge (self-idea path), Stage 2 Section 1 — Landscape
 
 ---
 
