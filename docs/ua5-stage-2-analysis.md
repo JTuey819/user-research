@@ -18,25 +18,35 @@ A short survey of the space the system enters. Two or three pages of notes is us
 
 ### Adjacent products
 
-- [Product 1] — [what it does, what it does well, what its users complain about, where it overlaps with our project, where it leaves gaps]
-- [Product 2] — …
+- **MyFitnessPal** — largest nutrition tracking app by user base; strong food database, barcode scanning, calorie/macro logging, social features, integration with fitness trackers. Does well: enormous food database, habit familiarity, broad platform support. Users complain: aggressive paywall transition (barcode scanning, macro tracking moved behind Premium at $29.99/mo), weight-loss-centric design, generic recommendations not adapted to athletic context or training load. Where it overlaps with Surge: food logging, nutritional breakdown, daily tracking. Where it leaves gaps: no adaptation for athletic performance, recovery, or sport-specific guidance; treats all users as weight-loss seekers.
+- **Cronometer** — free tier with ads, Gold ~$49.99/yr; stronger on micronutrient tracking than MyFitnessPal; less social. Overlaps: detailed nutritional data. Gaps: still generic, not performance-oriented.
+- **Lose It!** — ~$3.33/mo annual; calorie-first framing; weight loss positioning explicit in name and design. Overlaps: food logging. Gaps: performance framing entirely absent.
+- **FatSecret** — free barcode scanner; basic feature set; no subscription. Overlaps: food lookup. Gaps: minimal guidance, no athletic context.
+- **Cal AI** — AI-powered food scanning; camera-based food recognition behind paywall after free uses. Overlaps: the camera AI scan feature Surge intends to offer. Gaps: no sports nutrition context, paywall friction.
+- **Coach advice / trainers** — primary current alternative for athletes; broad, non-personalized ("eat carbs," "avoid fast food before games"). Does well: trusted source, no friction to access. Gaps: not specific, not trackable, not available on demand.
+- **YouTube / TikTok fitness creators, Reddit** — free, on-demand, community-driven. Does well: engaging, relatable, free. Gaps: inconsistent quality, not personalized, passive consumption rather than active tracking.
 
 ### Open-source candidates
 
-- [Project] — [what it solves, license, whether it could be forked / extended / learned from]
+- No open-source sports nutrition tracking projects identified in current research. This is a gap — worth checking before Stage 3 to avoid rebuilding something that already exists (food databases, nutrition APIs, barcode lookup libraries).
 
 ### Category
 
-- The category customers think they're shopping in: [category]
-- What that category brings with it (price expectations, feature expectations, usage patterns): [list]
-- Whether this is a fit or a misfit: [note]
+- **The category customers think they're shopping in:** calorie and macro tracking apps ("food tracker," "nutrition tracker," "calorie counter") — not "sports nutrition app." Users search for familiar terms.
+- **What that category brings with it:** expectation of a large food database, barcode scanning, daily calorie targets, macro breakdowns (protein/carbs/fat), free tier with premium upsell, habit-loop design (log every meal).
+- **Whether this is a fit or a misfit:** partial misfit. Surge inherits the category's feature expectations (food database, logging, scanning) but wants to reframe the purpose — from weight management to athletic performance. The risk: users will compare Surge against MyFitnessPal on database size and feature breadth before they understand the performance angle. The opportunity: the weight-loss framing of existing apps is a genuine complaint, not just a Surge talking point.
 
 ### Inherited conventions
 
 Conventions the project is taking on whether it knows it or not. For each, decide explicitly: keep, break on purpose, or note as open.
 
-- [convention] — [keep | break | open]
-- [convention] — [keep | break | open]
+- Daily food logging — **keep** (the core behavior the category is built on)
+- Barcode / camera scanning to identify food — **keep** (the feature that hit the paywall in Jayden/student's experience; Surge's intended differentiator on access)
+- Calorie targets as the primary metric — **break on purpose** (Surge's positioning is performance, not calorie deficit; macro and nutrient guidance should lead, not calories)
+- Weight loss as the implied goal — **break on purpose** (Surge explicitly serves athletes trying to fuel performance and gain, not cut)
+- Macro breakdown (protein / carbs / fat) — **keep** (athletes expect this; removing it would confuse users)
+- Weekly progress summaries — **open** (useful if framed around performance, not weight)
+- Social / community features — **open** (not core to the positioning; worth validating whether athletes want this or not)
 
 ---
 
@@ -88,8 +98,24 @@ A narrative. The user starts with "I have this need" and ends with "my need is m
 
 ---
 
+## Current alternatives (staging area for Section 3 — JTBD)
+
+What athletes currently use instead of a dedicated sports nutrition tool. To be woven into the "what people do today" field of each job in Section 3.
+
+- **Apps:** MyFitnessPal, macro trackers, calorie calculators
+- **Human guidance:** coaches, teammates, trainers
+- **Online content:** TikTok and YouTube fitness creators, Reddit, Google searches
+- **Informal systems:** guessing, screenshots of meal plans, eating habits developed over time, rough macro estimation
+
+---
+
 ## Open from this stage
 
 Things flagged during Stage 2 that don't yet have a home — for the student to revisit later or carry into Stage 3.
 
-- [thing]
+- Open-source food database / nutrition API options not yet researched — check before Stage 3
+- What is the real core frustration? Still unclear whether users struggle most with lack of knowledge, app complexity, tracking fatigue, conflicting advice, or consistency
+- Do different athlete types (endurance, strength, team sport, recreational gym-goer) experience the same nutrition frustrations? Not yet known
+- Would athletes consistently use a performance-focused nutrition app long-term? Current evidence shows frustration exists but does not prove engagement or willingness to switch
+- Is "performance nutrition" the right framing, or do athletes naturally think in different terms (fuel, macros, eating clean, recovery, body composition)? Language testing still needed
+- Subscription tolerance unknown — users complain about paywalls, but whether they would pay for genuine value is not yet tested

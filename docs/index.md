@@ -28,7 +28,7 @@ moves from opportunity discovery through specification.
 
 ### Stage 2 — Analysis
 
-- [ua5 — Stage 2 analysis](ua5-stage-2-analysis.md) — created; Section 1 (Landscape) in progress
+- [ua5 — Stage 2 analysis](ua5-stage-2-analysis.md) — Landscape section filled in: seven competitors mapped (MyFitnessPal, Cronometer, Lose It!, Cal AI, etc.), category and inherited conventions analyzed, weight-loss vs. performance positioning gap documented; Stakeholders and JTBD sections still in progress
 
 ### Project status file
 
