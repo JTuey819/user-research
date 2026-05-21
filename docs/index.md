@@ -1,15 +1,12 @@
 ---
-title: User Research Project
+title: Research Documents
 layout: default
 last_updated: 2026-05-21
 ---
 
-# User Research Project
-
-This site is the published record of an in-progress user-research project
-following the [ua-framework](https://github.com/league-infrastructure/claude-plugin-marketplace/tree/master/plugins/ua-framework)
-three-stage process. The documents below are produced as the project
-moves from opportunity discovery through specification.
+This site is the published record of an in-progress user-research project for **Surge** — a performance nutrition tracking app for athletes.
+It follows the [ua-framework](https://github.com/league-infrastructure/claude-plugin-marketplace/tree/master/plugins/ua-framework)
+three-stage process, moving from opportunity discovery through specification.
 
 ## Project status
 

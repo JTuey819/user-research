@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — Surge{% else %}Surge{% endif %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --forest: #0B1F14;
+      --mid: #1A4731;
+      --accent: #3ECF8E;
+      --accent-dim: #2aad74;
+      --light: #F4FAF7;
+      --white: #FFFFFF;
+      --muted: #6B8F7E;
+      --border: #D6E8DF;
+      --text: #0F2318;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--white);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+    }
+    .nav-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1.1rem 0;
+    }
+    .nav-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem; font-weight: 700;
+      color: var(--forest);
+      letter-spacing: -0.02em;
+      text-decoration: none;
+    }
+    .nav-logo span { color: var(--accent); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a {
+      text-decoration: none; color: var(--muted);
+      font-size: 0.875rem; font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--forest); }
+    .nav-cta {
+      background: var(--forest); color: var(--white);
+      border: none; padding: 0.6rem 1.4rem;
+      border-radius: 100px; font-size: 0.875rem;
+      font-weight: 600; cursor: pointer;
+      font-family: 'DM Sans', sans-serif;
+      transition: background 0.2s, transform 0.15s;
+      text-decoration: none;
+    }
+    .nav-cta:hover { background: var(--mid); transform: translateY(-1px); }
+
+    /* ── PAGE HEADER ── */
+    .page-header {
+      background: var(--forest);
+      padding: 8rem 2rem 4rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .page-header::before {
+      content: '';
+      position: absolute;
+      width: 600px; height: 600px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(62,207,142,0.1) 0%, transparent 70%);
+      top: -150px; right: -100px;
+      pointer-events: none;
+    }
+    .page-header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      position: relative; z-index: 2;
+    }
+    .page-header-badge {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(62,207,142,0.12);
+      border: 1px solid rgba(62,207,142,0.25);
+      color: var(--accent);
+      padding: 0.35rem 0.9rem; border-radius: 100px;
+      font-size: 0.75rem; font-weight: 600;
+      letter-spacing: 0.05em; text-transform: uppercase;
+      margin-bottom: 1.25rem;
+    }
+    .page-header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      font-weight: 900; line-height: 1.1;
+      color: var(--white);
+      letter-spacing: -0.03em;
+    }
+    .page-header h1 em { font-style: italic; color: var(--accent); }
+
+    /* ── CONTENT ── */
+    .content-wrap {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 4rem 2rem 6rem;
+    }
+
+    /* Typography */
+    .content-wrap h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.75rem, 3vw, 2.5rem);
+      font-weight: 900; line-height: 1.15;
+      color: var(--forest);
+      letter-spacing: -0.025em;
+      margin: 2.5rem 0 1rem;
+    }
+    .content-wrap h1:first-child { margin-top: 0; }
+
+    .content-wrap h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.35rem, 2.5vw, 1.9rem);
+      font-weight: 700; line-height: 1.2;
+      color: var(--forest);
+      letter-spacing: -0.02em;
+      margin: 2.5rem 0 0.85rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .content-wrap h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.15rem;
+      font-weight: 700; line-height: 1.3;
+      color: var(--forest);
+      margin: 2rem 0 0.6rem;
+    }
+
+    .content-wrap h4 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--accent-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin: 1.75rem 0 0.5rem;
+    }
+
+    .content-wrap p {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #2a4a38;
+      margin-bottom: 1.25rem;
+      font-weight: 300;
+    }
+
+    .content-wrap a {
+      color: var(--accent-dim);
+      text-decoration: none;
+      font-weight: 500;
+      border-bottom: 1px solid rgba(42,173,116,0.3);
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .content-wrap a:hover {
+      color: var(--forest);
+      border-bottom-color: var(--forest);
+    }
+
+    /* Lists */
+    .content-wrap ul,
+    .content-wrap ol {
+      margin: 0 0 1.25rem 1.5rem;
+      padding: 0;
+    }
+    .content-wrap li {
+      font-size: 1rem;
+      line-height: 1.75;
+      color: #2a4a38;
+      margin-bottom: 0.4rem;
+      font-weight: 300;
+    }
+    .content-wrap li strong { color: var(--forest); font-weight: 600; }
+
+    /* Nested lists */
+    .content-wrap li ul,
+    .content-wrap li ol { margin-top: 0.4rem; margin-bottom: 0.4rem; }
+
+    /* Code */
+    .content-wrap code {
+      font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+      font-size: 0.85em;
+      background: var(--light);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.1em 0.4em;
+      color: var(--mid);
+    }
+    .content-wrap pre {
+      background: var(--forest);
+      border-radius: 16px;
+      padding: 1.5rem;
+      overflow-x: auto;
+      margin: 1.5rem 0;
+    }
+    .content-wrap pre code {
+      background: transparent;
+      border: none;
+      color: rgba(255,255,255,0.85);
+      font-size: 0.875rem;
+      padding: 0;
+    }
+
+    /* Blockquote */
+    .content-wrap blockquote {
+      margin: 1.5rem 0;
+      padding: 1.25rem 1.5rem;
+      background: var(--light);
+      border-left: 3px solid var(--accent);
+      border-radius: 0 12px 12px 0;
+    }
+    .content-wrap blockquote p {
+      margin: 0;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .content-wrap table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.9rem;
+    }
+    .content-wrap th {
+      background: var(--forest);
+      color: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 0.75rem 1rem;
+      text-align: left;
+    }
+    .content-wrap td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border);
+      color: #2a4a38;
+      font-weight: 300;
+    }
+    .content-wrap tr:last-child td { border-bottom: none; }
+    .content-wrap tr:hover td { background: var(--light); }
+
+    /* HR */
+    .content-wrap hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 3rem 0;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--forest);
+      padding: 3rem 2rem;
+    }
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 1rem;
+    }
+    .footer-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.25rem; font-weight: 700;
+      color: var(--white);
+      letter-spacing: -0.02em;
+    }
+    .footer-logo span { color: var(--accent); }
+    .footer-links {
+      display: flex; gap: 1.5rem; list-style: none;
+      flex-wrap: wrap;
+    }
+    .footer-links a {
+      font-size: 0.85rem; color: rgba(255,255,255,0.4);
+      text-decoration: none; transition: color 0.2s;
+    }
+    .footer-links a:hover { color: rgba(255,255,255,0.8); }
+    .footer-copy {
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.25);
+      margin-top: 1.5rem;
+      text-align: center;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 680px) {
+      .nav-links { display: none; }
+      .page-header { padding: 7rem 1.25rem 3rem; }
+      .content-wrap { padding: 2.5rem 1.25rem 4rem; }
+      .footer-inner { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-logo" href="{{ '/' | relative_url }}"><span>S</span>urge</a>
+      <ul class="nav-links">
+        <li><a href="{{ '/ua2-positioning-statement' | relative_url }}">Positioning</a></li>
+        <li><a href="{{ '/ua3-research-plan' | relative_url }}">Research</a></li>
+        <li><a href="{{ '/ua4-interview-plan' | relative_url }}">Interviews</a></li>
+        <li><a href="{{ '/ua5-stage-2-analysis' | relative_url }}">Analysis</a></li>
+        <li><a href="{{ '/UA0-PROJECT-STATUS' | relative_url }}">Status</a></li>
+      </ul>
+      <a class="nav-cta" href="{{ '/' | relative_url }}">Home</a>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="page-header-inner">
+      <div class="page-header-badge">Surge — User Research</div>
+      <h1>{{ page.title | default: site.title }}</h1>
+    </div>
+  </div>
+
+  <!-- CONTENT -->
+  <main class="content-wrap">
+    {{ content }}
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo"><span>S</span>urge</div>
+      <ul class="footer-links">
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/ua2-positioning-statement' | relative_url }}">Positioning</a></li>
+        <li><a href="{{ '/ua3-research-plan' | relative_url }}">Research</a></li>
+        <li><a href="{{ '/ua4-interview-plan' | relative_url }}">Interviews</a></li>
+        <li><a href="{{ '/ua5-stage-2-analysis' | relative_url }}">Analysis</a></li>
+        <li><a href="{{ '/UA0-PROJECT-STATUS' | relative_url }}">Status</a></li>
+      </ul>
+    </div>
+    <p class="footer-copy">Surge — User Research Project. Built with the ua-framework.</p>
+  </footer>
+
+</body>
+</html>

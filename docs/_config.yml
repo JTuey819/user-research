@@ -1,11 +1,8 @@
-title: User Research Project
+title: Surge — User Research
 description: >-
-  Structured user research with the ua-framework — the published record of
-  a project moving from opportunity discovery through specification.
-
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-  - jekyll-remote-theme
+  User research for Surge — a performance nutrition tracking app for athletes.
+  Published record of an in-progress project following the ua-framework
+  three-stage process.
 
 # Files at the top level of docs/ are the UA documents. List them with
 # their generated paths so links from index.md work.
