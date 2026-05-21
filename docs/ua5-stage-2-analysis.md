@@ -62,22 +62,32 @@ Everyone with a stake in whether the system succeeds beyond the users. Most stak
 
 | Stakeholder | Stake | Their version of "success" |
 |---|---|---|
-| [name or role] | [what they care about] | [what would make this stakeholder happy] |
-| [name or role] | … | … |
+| Apple App Store / Google Play | Distribution gatekeepers; approve the app before any user can download it; enforce health data, privacy, and age policies; take 30% cut on any in-app purchases | App passes review, stays live, complies with platform health and privacy guidelines |
+| Nutrition database provider (USDA / Nutritionix / Edamam) | Data licensor; terms of service govern how nutritional data can be displayed, attributed, and used commercially | Surge uses the data within the terms; proper attribution displayed |
+| Parents of teen athletes | Their child is using an app that collects health and personal data; parental trust affects adoption among the high school segment | App is transparent about what it collects; no data shared without consent; age-appropriate experience |
+| Coaches and trainers | Influencers, not users; if they recommend Surge it accelerates adoption; if they dismiss it, it loses an entire team | App gives athletes useful, accurate guidance — not advice that contradicts what the coach is already telling them |
+| The developer (student/maintainer) | Owns the codebase, data infrastructure, and product decisions; time and resources are real constraints | App ships, users stay, data doesn't create liability |
 
 ### Users (recap from Stage 1, with Stage 2 updates)
 
 The user picture from Stage 1 with any updates Stage 2 work surfaced.
 
-- **Primary user type:** [who]
-- **Secondary user types (if any):** [who]
-- **What's been added or revised since Stage 1:** [bullet list]
+- **Primary user type:** Athletes and gym-goers who are training hard toward a specific goal but don't yet know how to eat in a way that actually supports it (Jayden profile — knowledge-seeker, not monitoring-reducer)
+- **Secondary user types:** Coaches and trainers who might refer athletes to the app; not users themselves but influential in adoption
+- **What's been added or revised since Stage 1:**
+  - Sub-segment decision made: primary user is the knowledge-seeking athlete (Jayden), not the already-knowledgeable monitoring-reducer (Jessica)
+  - Compliance flag added: teen users under 13 require special handling (COPPA)
+  - Aggregate data use identified: users' data contributes to recommendations for others — needs disclosed consent at signup
 
 ### Compliance and accessibility considerations
 
 What has been surfaced about FERPA, COPPA, HIPAA, PII, accessibility, or any other regulatory / safety constraint relevant to the project. Capture in plain language; the student is not producing a compliance document.
 
-- [constraint] — [how it applies; how the project will handle it]
+- **PII and health-adjacent data** — Surge collects age, body weight, activity level, fitness goals, and food logs. This is personal and health-adjacent data. Both App Store and Google Play require a published privacy policy disclosing what is collected and how it is used. Users must explicitly consent before data collection begins.
+- **Aggregate data / recommendation system** — Surge uses patterns from existing users to generate recommendations for new users. This data practice must be disclosed to users at signup — they need to know their data contributes to recommendations for others, and they need to consent to that.
+- **COPPA (under-13 users)** — Surge's target includes high school athletes, some of whom may be under 13. COPPA prohibits collecting personal information from children under 13 without verifiable parental consent. Surge must either implement age verification and a parental consent flow, or explicitly restrict the app to users 13 and older.
+- **Nutritional advice liability** — Surge gives food and nutrition guidance. If that guidance is framed as medical or clinical advice, it enters regulated territory. The app should make clear it is a general nutrition tracking and guidance tool, not a medical service or dietitian substitute.
+- **Accessibility** — no specific accessibility requirements surfaced yet; open for Stage 3 consideration.
 
 ---
 
