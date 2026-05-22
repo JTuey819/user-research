@@ -93,22 +93,63 @@ What has been surfaced about FERPA, COPPA, HIPAA, PII, accessibility, or any oth
 
 ## Jobs-to-be-done and scenarios
 
-One subsection per job. Each has the four-question structure plus at least one scenario.
+### Job 1 — Figure out what to eat for my sport
 
-### Job 1 — [short title]
+- **JTBD statement:** When I'm training hard toward a specific athletic goal, I want to know whether what I'm eating is actually supporting that goal, so I can stop guessing and feel confident my effort isn't being wasted.
+- **How do we know it's a real job:**
+  - Michael B (football, Stage 2 form): describes his food choices in vague performance terms — "it's healthy and helps me prepare for football practice" — but can't specify what nutrients he's targeting or whether he's getting enough. Goal is to "get faster even though I have a smaller body," but his nutrition strategy is purely intuitive.
+  - Alarie A (volleyball, Stage 2 form): eats two meals a day, "hasn't thought about it in a while," and her coach told her to "just condition more than diet." She assumes she works off whatever she eats. No app, no tracking, no guidance.
+  - Jayden (basketball, Stage 1 interview): confirmed knowledge gap firsthand — training hard but uncertain whether his eating is aligned with his performance goals. The need was clear enough that it was the anchor for the primary user profile.
+- **What people do today:**
+  1. Eat what feels healthy or what parents prepare, without a nutritional frame tied to their sport.
+  2. Ask coaches — the most trusted source. Coaches say things like "eat clean," "just condition more," or give a rough calorie number ("eat 5000 calories"). No specifics on timing, micronutrients, or sport-specific guidance.
+  3. Watch TikTok / YouTube fitness content, Reddit — general fitness advice, not calibrated to the individual's sport, training load, or body.
+  4. Adjust by feel after a bad workout or a period of low energy. No systematic review.
+  5. Use sport season as a reset trigger: Michael B describes getting back on track in late summer because "I have sports in the fall I need to be ready for." The correction is seasonal, not continuous.
+- **Why has the current way persisted:**
+  - Coach advice is trusted and free. It requires no additional effort.
+  - The knowledge gap is tolerable day to day — you don't feel a direct link between yesterday's meal and today's sprint time. The pain is diffuse.
+  - Athletes credit their workout for feeling good or bad, not their food. Alarie: "I feel that I work it off during practice." The causal chain between nutrition and performance isn't felt concretely.
+  - Every app that exists (MFP, Cronometer) is built for weight management, not athletic performance. Athletes see these as diet tools and don't self-select into them.
 
-- **JTBD statement:** When I'm [situation], I want to [motivation], so I can [outcome].
-- **How do we know it's a real job:** [specific evidence from Stage 1. A quote, an observation, a workaround witnessed firsthand.]
-- **What people do today:** [step by step description of the current alternative. Not "they use a spreadsheet" — what columns, which sheet, what they do when the data doesn't fit.]
-- **Why has the current way persisted:** [what it does well, what users would lose by switching. Chesterton's fence territory.]
+#### Scenario 1.1 — Pre-season gut check
 
-#### Scenario 1.1 — [short title]
+> **Michael B** is three weeks out from the start of football season. He's been eating casually all summer — some not-great choices, more fast food than usual. He wants to get "back on track" before camp. He knows he should be eating more protein and fewer empty carbs, but that's the extent of his framework. He has no idea what his actual daily protein intake is, whether his pre-practice meal timing is helping or hurting, or how many calories a player his size needs for his specific goal of getting faster.
+>
+> He thinks about downloading a nutrition app. He searches "nutrition app" in the App Store. He sees MyFitnessPal, opens it, and immediately hits a prompt to set a weight-loss goal. **Something goes wrong:** the app is clearly designed for people who want to lose weight. He's trying to get faster, not lighter. The onboarding doesn't map to his goal at all. He closes it and puts his phone down.
+>
+> He asks his coach at the first team workout. Coach says: "Eat clean, stay hydrated, get your protein in." Michael B nods, eats chicken and rice that night, and considers it handled. He goes into camp not knowing whether he's fueling correctly.
 
-A narrative. The user starts with "I have this need" and ends with "my need is met." Includes at least one branch where something doesn't work the first time.
+**Reads back against positioning statement:** No — the current alternative (coach advice) delivers generic guidance without the confidence that comes from knowing your intake actually matches your goal. The key benefit ("confidence that your nutrition is working for your performance") is not delivered by the workaround. This is the job Surge is built to fill.
 
-> [User] is doing [activity]. They need to [need]. They open [system / current alternative] and [first step]. Then [second step]. **Something goes wrong:** [thing]. They [recovery action]. Eventually [need is met or not].
+---
 
-**Reads back against positioning statement:** Does this story actually deliver the **key benefit** named in `ua2-positioning-statement.md`? [yes / no, with note]
+### Job 2 — Log food without it being more work than the workout
+
+- **JTBD statement:** When I already have a rough sense of what I should be eating and I'm training consistently, I want to log my food quickly without hunting for items or doing manual math, so I can stay consistent without the app becoming a second job.
+- **How do we know it's a real job:**
+  - Ryan C (football, Stage 2 form): downloaded MyFitnessPal, used it briefly, then stopped — "I found the extra work not to be worth it as I was pretty aware of what I was eating already and the nutrients it had." He knows his rough targets (~4000–5000 cal/day, high protein and carbs — told by his coach). The app confirmed what he already knew but cost more time than it saved.
+  - Jessica (gym-goer, Stage 1 interview): monitors food group coverage mentally every day — protein, dairy, fiber, vegetables. Has taken nutrition classes. Does not use an app because her informal mental system is accurate enough and frictionless.
+- **What people do today:**
+  1. Maintain a rough mental model of daily intake — not exact calories, but a sense of whether protein, carbs, and vegetables were covered.
+  2. Ask coaches when the mental model breaks down ("I try to contact my coaches — they usually know the most about proper training and eating habits" — Ryan C).
+  3. Eyeball serving sizes and skip logging entirely on days when meals were prepared by someone else (parents, restaurants).
+  4. Download an app, try it for a day or two, abandon it when it asks too many questions or doesn't have the food.
+- **Why has the current way persisted:**
+  - Mental estimation is genuinely low-friction. Ryan C knows chicken and rice is good. He doesn't need an app to tell him that.
+  - MFP exists but has friction: barcode scanning is behind a paywall, the food database requires search, entries need correction. The overhead is real.
+  - Coaches fill the gap for high-stakes questions. They're always available and trusted.
+  - The cost of being slightly wrong is invisible. You don't feel 200 missing calories. The workaround "works well enough."
+
+#### Scenario 2.1 — Trying to hit 5000 calories
+
+> **Ryan C** is in football offseason, trying to bulk for next season. His coach told him to eat 5000 calories a day, high protein and carbs. He has no idea if he's hitting that. Most days he eats what his parents cook plus a post-workout meal he puts together himself. He tries MyFitnessPal for two days.
+>
+> **Something goes wrong:** barcode scanning on the packaged rice his mom buys is locked behind MyFitnessPal Premium. He has to search manually. The search returns six versions of "white rice" with different calorie counts. He picks one, logs it, moves on. By the end of day one he's at 3,200 calories logged but suspects he missed a few things. Day two he skips logging breakfast because he's running late. He uninstalls the app.
+>
+> He goes back to eyeballing and asks his coach at the next practice. Coach says "you look good, keep it up." He takes that as confirmation and stops thinking about it. He probably isn't hitting 5000 most days, but there's no feedback loop to tell him.
+
+**Reads back against positioning statement:** No — the workaround (mental estimation + occasional coach check-in) doesn't give Ryan the feedback loop he needs. The key benefit isn't delivered. Note: this is the secondary user profile; the primary user (Job 1) is the bigger unlock for Surge, but this job represents a real retention risk — users who already know their macros will abandon any app with high logging friction.
 
 ---
 

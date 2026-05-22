@@ -11,9 +11,9 @@ three-stage process, moving from opportunity discovery through specification.
 ## Project status
 
 - **Current stage:** Stage 2 — Analysis
-- **Current pass / activity:** Section 1 — Landscape
+- **Current pass / activity:** Section 3 — Jobs-to-be-done and scenarios
 - **Last status update:** 2026-05-21
-- **Most recent checkpoint:** Stage 1 — Discovery complete; advancing to Stage 2 (2026-05-21)
+- **Most recent checkpoint:** JTBD section drafted — two jobs with scenarios, evidence from five interviews (2026-05-21)
 
 ## Documents
 
@@ -25,7 +25,7 @@ three-stage process, moving from opportunity discovery through specification.
 
 ### Stage 2 — Analysis
 
-- [ua5 — Stage 2 analysis](ua5-stage-2-analysis.md) — Landscape section filled in: seven competitors mapped (MyFitnessPal, Cronometer, Lose It!, Cal AI, etc.), category and inherited conventions analyzed, weight-loss vs. performance positioning gap documented; Stakeholders and JTBD sections still in progress
+- [ua5 — Stage 2 analysis](ua5-stage-2-analysis.md) — Landscape, Stakeholders, and JTBD sections complete; two jobs written with scenarios and full evidence from five interviews (Jayden, Jessica, Michael B, Ryan C, Alarie A)
 
 ### Project status file
 

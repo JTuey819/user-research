@@ -22,7 +22,7 @@ Stage 2 — Analysis
 
 ## Current pass or activity
 
-Section 1 — Landscape
+Section 3 — Jobs-to-be-done and scenarios
 
 ## Positioning statement status
 
@@ -45,6 +45,7 @@ One line per clause. Status values: `not started` | `drafted from belief` | `dra
 - 2026-05-14: Pass 4 — Interview 1 complete (Jayden, basketball). Need confirmed and expanded. Target customer broadened to performance-oriented athletes. Positioning statement updated with new evidence. Competitive research patterns added.
 - 2026-05-14: Pass 4 — Interview 2 complete (Jessica, gym-goer). Target customer confirmed to include gym-goers. Need clause complicated: two distinct need modes now documented — knowledge gap (Jayden) vs. monitoring friction (Jessica). Key benefit complicated: "confidence" framing falls flat for already-knowledgeable sub-segment. Positioning statement updated with new evidence across Target customer, Need or opportunity, and Key benefit.
 - 2026-05-21: Stage 1 — Discovery complete. All seven clauses evidenced or refined by research. Sub-segment decision made: primary user is knowledge-seeker (Jayden profile). Advancing to Stage 2.
+- 2026-05-21: Stage 2 Section 3 — JTBD drafted. Two jobs written with scenarios. Evidence from five interviews total: Jayden, Jessica (Stage 1) and Michael B, Ryan C, Alarie A (Stage 2 form responses).
 
 ## Known gaps
 
@@ -58,4 +59,4 @@ One line per clause. Status values: `not started` | `drafted from belief` | `dra
 ## Last updated
 
 - **Date:** 2026-05-21
-- **By:** ua-orchestrator
+- **By:** ua-orchestrator (JTBD section)
